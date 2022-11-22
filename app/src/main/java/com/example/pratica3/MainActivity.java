@@ -13,21 +13,21 @@ public class MainActivity extends AppCompatActivity {
 
     private BreakIterator campoTexto;
     private EditText edProduto;
-    private EditText edtPreço;
+    private EditText edPreço;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         edProduto = (EditText) findViewById(R.id.edProduto);
-        edtPreço = (EditText) findViewById(R.id.edPreço);
+        edPreço = (EditText) findViewById(R.id.edPreço);
 
 
     }
     public void mostraTexto (View view) {
         // Recupera o texto digitado
-        Toast.makeText(MainActivity.this, "Dados informados:    Nomes do produto:"  + edProduto.getText() + "Preço do produto" + );
+        Toast.makeText(MainActivity.this, "Dados informados:    Nomes do produto:"  + edProduto.getText() + "Preço do produto" + edPreço, Toast.LENGTH_LONG);
 
     }
 }
