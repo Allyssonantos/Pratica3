@@ -19,10 +19,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        edProduto = (EditText) findViewById(R.id.edProduto);
+        edtPreço = (EditText) findViewById(R.id.edPreço);
+
 
     }
     public void mostraTexto (View view) {
         // Recupera o texto digitado
+        to
 
     }
 }
