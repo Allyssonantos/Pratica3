@@ -37,8 +37,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text=""
-            android:visibility="visible" />
+            android:hint="Informe o nome do produto"
+
+            />
 
         <TextView
             android:id="@+id/preco"
@@ -54,7 +55,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="" />
+            android:hint="Informe o preço do produto" />
 
         <CheckBox
             android:id="@+id/produto_importado"
@@ -67,6 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#8E1010"
-            android:text="Salvar" />
+            android:text="Salvar"
+            android:onClick="mostraTexto"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
