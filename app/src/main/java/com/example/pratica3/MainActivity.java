@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.text.BreakIterator;
 
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void mostraTexto (View view) {
         // Recupera o texto digitado
-        to
+        Toast.makeText(MainActivity.this, "Dados informados:    Nomes do produto:"  + edProduto.getText() + "Preço do produto" + );
 
     }
 }
