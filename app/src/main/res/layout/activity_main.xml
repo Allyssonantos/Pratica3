@@ -32,7 +32,7 @@
             android:textStyle="normal|bold" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/edProduto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -50,7 +50,7 @@
             android:textStyle="normal|bold" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/edPreço"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"

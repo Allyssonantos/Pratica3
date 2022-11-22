@@ -11,14 +11,18 @@ import java.text.BreakIterator;
 public class MainActivity extends AppCompatActivity {
 
     private BreakIterator campoTexto;
+    private EditText edProduto;
+    private EditText edtPreço;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
     public void mostraTexto (View view) {
         // Recupera o texto digitado
-       
+
     }
 }
