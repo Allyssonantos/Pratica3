@@ -67,8 +67,8 @@
             android:id="@+id/Salvar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8E1010"
-            android:text="Salvar"
-            android:onClick="mostraTexto"/>
+            android:backgroundTint="#1C126E"
+            android:onClick="mostraTexto"
+            android:text="Salvar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
